@@ -26,6 +26,7 @@ public class Lab1Activity extends AppCompatActivity
     }
 
     private String getInputOfTextField(int id) {
+        // my computer
         View view= findViewById(id);
         EditText editText= (EditText) view;
         String input = editText.getText().toString();
