@@ -66,7 +66,7 @@ public class Lab1Activity extends AppCompatActivity
             weight= weight*0.45359237;
         }
 
-
+//akjsdhaskd
 
         Person user = new Person(textName, weight, height);        //this line will get the answer back that it was calculated
         setContentsOfTextView(R.id.labelAnswer,user.toString());    //this line will substitute the word answer to the
